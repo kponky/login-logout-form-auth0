@@ -67,17 +67,191 @@
 }
 
 .login{
-    background-color: rgb(109, 18, 36);
+    background-color: rgba(100, 16, 33, 0.132)   ;
     width: 100px;
     color: white;
     font-size: 16px;
     font-weight: 500;
+    border: 1px solid grey;
 }
 
+.login:hover, .signup:hover{
+    background-color: white;
+    color: rgb(184, 27, 27);
+}
+
+
 .signup{
-    background-color:white;
+    background-color: rgb(109, 18, 36);
     width: 100px;
-    color:  rgb(109, 18, 36);
+    color: white;
+    /* color:  rgb(109, 18, 36); */
     font-size: 16px;
     font-weight: 500;
 }
+
+
+
+.home-page{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTSDdVs0UD9AY7K9__4PsYUI4pVa7TKiSJ2PS4vXCyzEXFiJT6Ouiz0itPdrrL_3E5dE8&usqp=CAU") ;
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.home-page h2{
+    margin: 170px 0 0 30px;
+    font-size: 40px;
+    color: white;
+    padding: 10px;
+
+ 
+}
+
+.home-page p{
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.home-page span{
+    color: white;
+    margin: 30px 0 0 30px ;
+    padding: 20px 10px;
+    font-size: 18px;
+}
+
+.home-page .join{
+    border-radius: 5px;
+    background: white;
+    margin-left: 30px;
+    padding: 10px;
+    width: 200px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color:  rgb(109, 18, 36);
+
+}
+
+.home-page .join:hover{
+    background:  rgb(238, 125, 5) ;
+    color: white;
+}
+
+.signin-form{
+    width: 40%;
+    height: 86vh;
+    background-color: rgb(245, 239, 239);
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: -18px 16px 5px -8px rgba(74,68,68,0.86);
+    -webkit-box-shadow: -18px 18px 5px -9px rgba(74,68,68,0.86);
+    -moz-box-shadow: -18px 16px 5px -9px rgba(74,68,68,0.86);
+    margin-bottom: 20px;
+}
+
+.signup-form{
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(245, 239, 239);
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: -18px 16px 5px -8px rgba(74,68,68,0.86);
+    -webkit-box-shadow: -18px 18px 5px -9px rgba(74,68,68,0.86);
+    -moz-box-shadow: -18px 16px 5px -9px rgba(74,68,68,0.86);
+    margin-bottom: 20px;
+
+}
+
+
+.signin-form h2,
+.signup-form h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.signin-form input,
+.signup-form input{
+    width: 90%;
+    padding: 15px;
+    border-radius: 15x;
+    margin: 10px 20px;
+    outline: none;
+    border: none;
+    /* background-color: rgba(223, 223, 215, 0.568); */
+}
+
+.password-container{
+    position: relative;
+}
+
+.fa-eye-slash{
+    color: grey;
+    font-size: 18px;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+a.fpw {
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.log{
+    width: 50%;
+    padding: 10px;
+    background-color: rgba(40, 40, 242, 0.614);
+    margin: auto;
+    border: none;
+    justify-content: center;
+    display: flex;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 16px;
+    color: white;
+}
+
+.signin-form p,
+.signup-form p{
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.btn-facebook,
+.btn-google{
+    background-color: rgba(12, 12, 243, 0.938);
+    margin-top: -5px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.fa-facebook{
+    font-size: 18px;
+
+}
+
+.btn-google {
+    background-color: white;
+    margin-top: 20px;
+    color: black;
+}
+
+
+

@@ -1,13 +1,17 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import "./app.css"
-import Home from './Home'
+import LoginPage from './LoginPage'
+import SignupPage from './SignupPage'
+// import Home from './Home'
 
 const App = () => {
   return (
     <div>
       <Navbar/> 
-      <Home/>
+ 
+      <SignupPage/>
+      
     </div>
   )
 }
